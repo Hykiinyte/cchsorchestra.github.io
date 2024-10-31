@@ -1,0 +1,21 @@
+// <uniquifier>: edufont
+// <weight>: 400
+
+.edu-au-vic-wa-nt-guides-<edufont> {
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 69px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
