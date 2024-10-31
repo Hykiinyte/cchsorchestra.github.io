@@ -9,12 +9,14 @@
 }
 
 h1 {
+  font: edufont
   font-size: 69px;
   text-align: center;
 }
 
 p,
 li {
+  font: edufont
   font-size: 16px;
   line-height: 2;
 }
