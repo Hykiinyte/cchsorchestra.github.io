@@ -1,3 +1,9 @@
-html {
-  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+// <uniquifier>: edufont
+// <weight>: 400
+
+.edu-au-vic-wa-nt-guides-<edufont> {
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
