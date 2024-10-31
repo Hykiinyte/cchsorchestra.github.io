@@ -7,3 +7,15 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+h1 {
+  font-size: 69px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
