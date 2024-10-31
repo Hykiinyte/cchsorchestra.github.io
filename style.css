@@ -6,7 +6,7 @@ h1 {
   font-size: 69px;
   text-align: center;
 
-  margin: 0;
+  margin: 1;
   padding: 20px 0;
   color: #787878;
   text-shadow: 3px 3px 1px black;
@@ -20,8 +20,8 @@ li {
 
 body {
   width: 900px;
-  margin: 0 auto;
+  margin: 1 auto;
   background-color: #ffffff;
-  padding: 0 20px 20px 20px;
+  padding: 1 20px 20px 20px;
   border: 5px green;
 }
