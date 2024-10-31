@@ -1,9 +1,5 @@
-// <weight>: 400
 html {
-  font-family: "Edu AU VIC WA NT Guides", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  background-color: #9e023e;
 }
 
 h1 {
