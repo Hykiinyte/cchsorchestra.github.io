@@ -4,6 +4,7 @@ html {
 
 h1 {
   font-size: 69px;
+  font-family: "Playwrite GB J", cursive;
   text-align: center;
 
   margin: 0;
@@ -19,7 +20,8 @@ li {
 }
 
 body {
-  width: 900px;
+  font-family: "SUSE", sans-serif;
+  width: 1200px;
   margin: 0 auto;
   background-color: #ffffff;
   padding: 0 20px 20px 20px;
