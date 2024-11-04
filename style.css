@@ -3,21 +3,26 @@ html {
 }
 
 nav {
-    position: fixed;
-    top: 0;
-    width: 100%; /* Stretches the navbar across the full width of the page */
-    background-color: #5e001e;
-    padding: 10px 20px; /* padding for spacing */
-    border-bottom: 2px solid black; /* Adds a bottom border */
-    text-align: auto;
-    z-index: 1000; /* Ensures it stays above other content */
+    width: 100vw; /* Full viewport width */
+    position: relative;
+    left: 0; /* Aligns the navbar to the left */
+    background-color: #ffffff;
+    padding: 10px 0; /* Padding for spacing */
+    border-bottom: 2px solid black;
+    text-align: center;
+    z-index: 1000;
 }
 nav a {
-    margin: 0 10px; /* space between links */
-    color: white; /* link color */
-    text-decoration: none; /* Removes underline from links */
-    font-weight: bold; /* bold links */
-    font-size: 15px;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Main Content Container Styles */
+.container {
+    width: 1200px; /* Centered content */
+    margin: 0 auto; /* Centers the container */
+    padding: 20px;
 }
 
 h1 {
