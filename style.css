@@ -2,13 +2,21 @@ html {
   background-color: #9e023e;
 }
 
-head {
-  width: auto;
-  margin: 0 auto;
-  background-color: #ffffff;
-  padding: 0 20px 20px 20px;
-  border: 5px black;
+nav {
+    width: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 10px 20px; /* Adjusted padding for better spacing */
+    border: 2px solid black; /* Added solid border styling */
+    text-align: center; /* Center-aligns the links */
 }
+nav a {
+    margin: 0 10px; /* Adds space between links */
+    color: black; /* Sets link color */
+    text-decoration: none; /* Removes underline from links */
+    font-weight: bold; /* Makes links bold for emphasis */
+}
+
 
 h1 {
   font-size: 69px;
