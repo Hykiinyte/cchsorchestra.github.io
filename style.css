@@ -8,13 +8,14 @@ nav {
     background-color: #5e001e;
     padding: 10px 20px; /* Adjusted padding for better spacing */
     border: 2px solid black; /* Added solid border styling */
-    text-align: center; /* Center-aligns the links */
+    text-align: auto; /* Center-aligns the links */
 }
 nav a {
     margin: 0 10px; /* space between links */
-    color: black; /* link color */
+    color: white; /* link color */
     text-decoration: none; /* Removes underline from links */
     font-weight: bold; /* bold links */
+    font-size: 15px;
 }
 
 h1 {
