@@ -3,7 +3,7 @@ html {
 }
 
 nav {
-    position: left;
+    position: fixed;
     top: 0;
     width: auto;
     background-color: #5e001e;
