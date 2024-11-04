@@ -3,9 +3,9 @@ html {
 }
 
 nav {
-    position: fixed;
+    position: left;
     top: 0;
-    width: 1150px;
+    width: auto;
     background-color: #5e001e;
     padding: 10px 20px;
     border-bottom: 2px solid black; /* Adds a bottom border */
