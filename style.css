@@ -3,7 +3,7 @@ html {
 }
 
 nav {
-    width: 2000px;
+    width: 100%;
     margin: 0 auto;
     background-color: #5e001e;
     padding: 10px 20px; /* Adjusted padding for better spacing */
