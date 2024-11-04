@@ -3,20 +3,19 @@ html {
 }
 
 nav {
-    width: auto;
+    width: 2000px;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #5e001e;
     padding: 10px 20px; /* Adjusted padding for better spacing */
     border: 2px solid black; /* Added solid border styling */
     text-align: center; /* Center-aligns the links */
 }
 nav a {
-    margin: 0 10px; /* Adds space between links */
-    color: black; /* Sets link color */
+    margin: 0 10px; /* space between links */
+    color: black; /* link color */
     text-decoration: none; /* Removes underline from links */
-    font-weight: bold; /* Makes links bold for emphasis */
+    font-weight: bold; /* bold links */
 }
-
 
 h1 {
   font-size: 69px;
