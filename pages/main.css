@@ -1,49 +1,137 @@
+/* What a FRESH breath of air finally getting this reoragnized
+
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
 html {
+  font-size: 16px;
   background-color: #9e023e;
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    width: 1160px;
-    background-color: #5e001e;
-    padding: 10px 20px;
-    border-bottom: 2px solid black; /* Adds a bottom border */
-    text-align: center;
-    z-index: 1000; /
-}
-nav a {
-    margin: 0 10px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #ffffff;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 80px; /* space for the fixed nav */
+  line-height: 1.6;
+  color: #333;
 }
 
-h1 {
-  font-size: 69px;
-  font-family: "Playwrite GB J", cursive;
+/* Navigation */
+header nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #5e001e;
+  border-bottom: 2px solid black;
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
   text-align: center;
+  margin: 20px 0;
+}
 
-  margin: 0;
-  padding: 20px 0;
+.hero-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+/* Headings */
+h1 {
+  font-size: 3rem;
+  font-family: 'Playwrite GB J', cursive;
+  text-align: center;
+  margin-bottom: 20px;
   color: #787878;
   text-shadow: 3px 3px 1px black;
 }
 
-p,
-li {
-  font-size: 16px;
-  line-height: 2;
-
-  font-family: "Space Grotesk", sans-serif;
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
 }
 
-body {
-  width: 1200px;
-  margin: 0 auto;
-  background-color: #ffffff;
-  padding: 0 20px 20px 20px;
-  border: 5px black;
+/* Sections */
+main section {
+  margin: 40px 20px;
+}
 
-  padding-top: 60px; /* adjust to the height of navbar */
+/* History Section */
+.history p {
+  margin-bottom: 1rem;
+}
+
+.history-image {
+  width: 100%;
+  margin: 20px 0;
+  display: block;
+}
+
+/* Community Section */
+.community ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.community li {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #5e001e;
+  text-decoration: none;
+  font-weight: bold;
 }
